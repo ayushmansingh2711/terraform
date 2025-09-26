@@ -28,12 +28,9 @@ This repository contains Terraform code for AWS infrastructure.
 
      It is for the instance phblic ip 
 
-     
-
-
-      output "aws_instance_public_ip" {
-  value = aws_instance.myserver.public_ip
+     output "aws_instance_public_ip" {
+    value = aws_instance.myserver.public_ip
   
-}
+     }
 
-  Note - myserver is the name of resource   ---   ( main.tf )
+Note - myserver is the name of resource   ---   ( main.tf )
