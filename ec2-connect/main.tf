@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "aws" {
-    region = "ap-south-1"   # region
+    region = var.region  # region
 }
 resource "aws_instance" "myserver" {    # resource type and name  ec2 
-  ami = "ami-02d26659fd82cf299"
+  ami = "ami-01b6d88af12965bb6"
   instance_type = "t2.micro"
 }
