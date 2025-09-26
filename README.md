@@ -14,3 +14,10 @@ This repository contains Terraform code for AWS infrastructure.
   Run ` aws ec2 create-default-vpc --region ap-south-1 `
 
    ![alt text](<Screenshot from 2025-09-26 15-53-27.png>)
+
+### 
+  If you want to destory  your resouce 
+  
+  Run `terraform destory `
+
+  ![alt text](<Screenshot from 2025-09-26 16-19-37.png>)
