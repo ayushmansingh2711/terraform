@@ -21,3 +21,19 @@ This repository contains Terraform code for AWS infrastructure.
   Run `terraform destory `
 
   ![alt text](<Screenshot from 2025-09-26 16-19-37.png>)
+
+
+
+  ## terraform outputs 
+
+     It is for the instance phblic ip 
+
+     
+
+
+      output "aws_instance_public_ip" {
+  value = aws_instance.myserver.public_ip
+  
+}
+
+  Note - myserver is the name of resource   ---   ( main.tf )
