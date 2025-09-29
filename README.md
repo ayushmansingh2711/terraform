@@ -60,3 +60,8 @@ Note - myserver is the name of resource   ---   ( main.tf )
 
 
   ![alt text](image.png)
+
+
+  ##  Terraform remote state Management 
+
+Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h 
