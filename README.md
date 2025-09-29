@@ -53,6 +53,8 @@ Note - myserver is the name of resource   ---   ( main.tf )
 
 
 ## Random provider for random id name password name   
+  ## file 
+  Run ` backend-tf `
 
      Note - this is the link for random provider
 
