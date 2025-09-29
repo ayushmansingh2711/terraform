@@ -65,3 +65,11 @@ Note - myserver is the name of resource   ---   ( main.tf )
   ##  Terraform remote state Management 
 
 Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h 
+   
+   ![alt text](<Screenshot from 2025-09-29 18-00-15.png>)
+
+    Note --  the file name is backend.tf 
+
+   ![alt text](<Screenshot from 2025-09-29 18-00-57.png>)
+   
+
