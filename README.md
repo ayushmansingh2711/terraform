@@ -64,7 +64,7 @@ Note - myserver is the name of resource   ---   ( main.tf )
 
   ##  Terraform remote state Management 
 
-   NOTE -  ec2 instance bna ke tf-file ko s3 ki help se manage krte hai  
+   NOTE -  ec2 instance bna ke terraform.tfstate ko  s3 bucket me store krte hai  
 
 Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  jisse multiple people us file ko access krke kaam  kar sake 
    
