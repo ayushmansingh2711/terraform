@@ -53,8 +53,7 @@ Note - myserver is the name of resource   ---   ( main.tf )
 
 
 ## Random provider for random id name password name   
-  ## file 
-  Run ` backend-tf `
+
 
      Note - this is the link for random provider
 
@@ -65,6 +64,9 @@ Note - myserver is the name of resource   ---   ( main.tf )
 
 
   ##  Terraform remote state Management 
+
+## file 
+Run ` backend-tf `
 
    NOTE -  ec2 instance bna ke terraform.tfstate ko  s3 bucket me store krte hai  
 
