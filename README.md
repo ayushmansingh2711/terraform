@@ -34,3 +34,19 @@ This repository contains Terraform code for AWS infrastructure.
      }
 
 Note - myserver is the name of resource   ---   ( main.tf )
+
+
+
+
+
+
+ ## How to create s3 bucket 
+
+
+![alt text](<Screenshot from 2025-09-29 16-21-24.png>)
+
+     Note -- source ../.env 
+          terraform init 
+          terraform validate 
+          terraform plan 
+          terraform apply   
