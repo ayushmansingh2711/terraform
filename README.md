@@ -74,6 +74,6 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
    ![alt text](<Screenshot from 2025-09-29 18-00-57.png>)
 
- # Note -- Terraform.tfstate  me file ka sara data hota hai  jo bhi hm kaam krte h usme 
+ # Note -- Terraform.tfstate  me main.tf file ka sara data hota hai  jo bhi hm kaam krte h usme 
    
 
