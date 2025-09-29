@@ -50,3 +50,13 @@ Note - myserver is the name of resource   ---   ( main.tf )
           terraform validate 
           terraform plan 
           terraform apply   
+
+
+## Random provider for random id name password name   
+
+     Note - this is the link for random provider
+
+    https://registry.terraform.io/providers/hashicorp/random/latest    
+
+
+  ![alt text](image.png)
