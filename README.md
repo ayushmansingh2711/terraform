@@ -81,3 +81,13 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
  # Note -- Terraform.tfstate  me main.tf file ka sara data hota hai  jo bhi hm kaam krte h usme 
    
 
+  ## Live a static website with s3 
+
+   Note ` this is the project ` 
+
+   
+   This is output 
+
+  ![alt text](<Screenshot from 2025-09-30 17-08-40.png>)
+   
+
