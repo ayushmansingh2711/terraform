@@ -55,9 +55,9 @@ Note - myserver is the name of resource   ---   ( main.tf )
 ## Random provider for random id name password name   
 
 
-     Note - this is the link for random provider
+     Note - this is the aws provider site
 
-    https://registry.terraform.io/providers/hashicorp/random/latest    
+    https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 
   ![alt text](image.png)
