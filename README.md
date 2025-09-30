@@ -83,9 +83,11 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
   ## Live a static website with s3 
 
+    File project Folder name    -  Project-static-website
+
    Note ` this is the project ` 
 
-   
+
    This is output 
 
   ![alt text](<Screenshot from 2025-09-30 17-08-40.png>)
