@@ -96,3 +96,12 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
    Note ` Create a aws-vpc and lunch a aws instance  with same vpc `
    
 
+
+   ## Set up aws-vpc-ec2 and nginx
+
+  # The code available  
+
+   Folder-name `aws-vpc-ec2-nginx`
+
+   ![alt text](<Screenshot from 2025-10-06 14-54-49.png>)
+
