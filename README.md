@@ -111,3 +111,8 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
    ![alt text](<Screenshot from 2025-10-06 14-54-49.png>)
 
+
+  ## data Source in terraform 
+
+    Note ` all details is available `
+    Folder name - tf-data-source
