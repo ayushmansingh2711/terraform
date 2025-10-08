@@ -116,3 +116,7 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
     Note ` all details is available `
     Folder name - tf-data-source
+
+     Find a ec2 AMI id with data source 
+
+   
