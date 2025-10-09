@@ -50,6 +50,17 @@ data "aws_vpc" "name" {
   output "aws_availability_zones" {
     value = data.aws_availability_zones.names
   }
+
+
+
+  #  to get the account details
+   data "aws_caller_identity" "current" {
+   }
+
+   output "aws_caller_identity" {
+     value = data.aws_caller_identity.current
+   }
+
 resource "aws_instance" "myserver" {    # resource type and name  ec2 
   # ami = "ami-01b6d88af12965bb6"
   ami = data.aws_ami.name.id
