@@ -119,7 +119,7 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
      Find a ec2 AMI id with data source 
 
-     AZ and vpc , security groups .
+     AZ and vpc , security groups 
 
      Note ` terraorm plan  ` , and can see any change
 
