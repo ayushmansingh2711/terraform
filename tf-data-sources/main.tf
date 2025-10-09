@@ -61,9 +61,24 @@ data "aws_vpc" "name" {
      value = data.aws_caller_identity.current
    }
 
+   # subnet id 
+   data "aws_subnet" "name" {
+    filter {
+      name = "vpc-id"
+     values = [ data.aws_vpc.name.id ]
+    }
+       tags = {
+      Name = "subnet-public1-ap-south-1a"
+     }
+   }
+
+
+
 resource "aws_instance" "myserver" {    # resource type and name  ec2 
-  # ami = "ami-01b6d88af12965bb6"
-  ami = data.aws_ami.name.id
+  ami = "ami-02d26659fd82cf299"
+  # ami = data.aws_ami.name.id
   instance_type = "t2.micro"
+  subnet_id = data.aws_subnet.name.id
+  security_groups = [data.aws_security_group.name.id]
   
 }

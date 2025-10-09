@@ -123,4 +123,12 @@ Terrafoem ki tf-state vali file remotely s3 ki help se cloud me store krte h  ji
 
      Note - terraorm plan   , and can see any change
 
+
+
+  ##  Project ---   Create a ec2 with vpc and security-group   with the help of data-source 
+
+Note ` All details are avialable in tf-data-source folder ` 
+
+     Folder name - tf-data-source folder
+
    
